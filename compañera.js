@@ -1,6 +1,6 @@
-import { chismosa } from './chismosa.js'; 
+import { Chismosa } from './Chismosa.js'; 
 
-export class CompaneraCuriosa extends chismosa {
+export class CompaneraCuriosa extends Chismosa {
   constructor(nombre, reputacion, nivelChisme) {
     super(nombre, reputacion, nivelChisme);
   }
