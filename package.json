@@ -4,7 +4,8 @@
   "description": "Batalla de chismes que determina quien logra hacer el chisme más virál ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ValentinaDelgadoRincon/Reinas_del_Chisme/issues"
   },
-  "homepage": "https://github.com/ValentinaDelgadoRincon/Reinas_del_Chisme#readme"
+  "homepage": "https://github.com/ValentinaDelgadoRincon/Reinas_del_Chisme#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }

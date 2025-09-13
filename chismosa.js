@@ -18,6 +18,14 @@ class Chismosa{
         return this.#nivelChisme;
     }
 
+    valorChisme(valor){
+        this.#nivelChisme+=valor;
+    }
+
+    valorReputacion(valor){
+        this.#reputacion+=valor;
+    }
+
     recolectarInfo(){
         throw new Error("El método debe implementarse en las clases hijas")
     }
@@ -26,3 +34,5 @@ class Chismosa{
         throw new Error("El método debe implementarse en las clases hijas")
     }
 }
+
+module.exports =Chismosa
