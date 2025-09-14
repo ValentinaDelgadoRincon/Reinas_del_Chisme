@@ -12,7 +12,7 @@ class TiaVecina extends Chismosa{
     }
 
     contarChisme(){
-        console.log(`${this.nombre} : Filtra el chisme por estados en WhatsApp`);
+        console.log(`${this.nombre} : Difunde el chisme mientras ofrece café`);
         this.valorChisme(Math.random()*8);
 
         if(this.reputacion<4){
